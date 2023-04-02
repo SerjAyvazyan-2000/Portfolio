@@ -39,6 +39,13 @@ const Portfolio = () => {
             github: "https://github.com/SerjAyvazyan-2000/Kardone-Shoop",
             demo: 'https://serjayvazyan-2000.github.io/Kardone-Shoop',
             process: "Is In Process"
+        },
+        {
+            id: 4,
+            img: lessons,
+            title: 'My Home Work',
+            github: "https://github.com/SerjAyvazyan-2000/Home-Work",
+            demo: 'https://serjayvazyan-2000.github.io/Home-Work/',
         }
     ]
 
