@@ -49,7 +49,7 @@ const Portfolio = () => {
         }
     ]
 
-    return <section id=" portfolio">
+    return <section id="portfolio">
         <div className="G-container">
             <div className="portfolio-box">
                 <h5>My Resent Work</h5>
