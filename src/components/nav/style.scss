@@ -1,0 +1,33 @@
+@import "src/assets/style/variables";
+
+nav{
+     background: rgba(0,0,0,0.3);
+     padding: 10px 10px;
+     z-index: 2;
+     left: 50%;
+     position: fixed;
+     transform: translateX(-50%);
+     bottom: 10px;
+     display: flex;
+     gap: 10px;
+     border-radius: 20px;
+     backdrop-filter: blur(15px);
+}
+
+nav a{
+     background: transparent;
+     padding: 10px;
+     border-radius: 50%;
+     display: flex;
+     color: $color-light;
+     font-size: 1.1rem;
+
+     &:hover{
+         background-color: rgba(0,0,0,0.3);
+     }
+}
+
+nav a.active{
+     background: $colorBg;
+     color: $color-white;
+}

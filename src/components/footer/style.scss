@@ -1,0 +1,52 @@
+@import "../../assets/style/variables.scss";
+
+.footer-section{
+background:$color-primary;
+padding:3rem 0 ;
+text-align: center;
+font-size: 0.9rem;
+margin-top: 7rem;
+
+
+a{
+    color: $colorBg;
+
+}
+
+}
+.footer-logo{
+     font-size: 2rem;
+     font-weight: 500;
+     margin-bottom: 2rem;
+     display: block;
+
+}
+.permalinks{
+   display: flex;  
+   flex-wrap: wrap;
+   justify-content: center;
+  gap: 2rem;
+  margin: 0 auto 3rem;
+}
+.footer-socials{
+     display: flex;
+     justify-content: center;
+     gap: 1rem;
+     margin-top: 20px;
+
+     a{
+         background: $colorBg;
+         color: $color-white;
+         padding: 0.8rem;
+         border-radius: 5px;
+         display: flex;
+         border: 1px solid transparent;
+
+
+         &:hover{
+             background: transparent;
+             color: $colorBg;
+             border-color: $colorBg;
+         }
+     }
+}

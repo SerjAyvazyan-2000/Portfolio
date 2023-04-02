@@ -1,0 +1,45 @@
+@import "src/assets/style/variables";
+
+.experiance-container{
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+       gap: 20px;
+
+     > div{
+         background: $color-bg-variant;
+         padding: 2.4rem 5rem;
+         border-radius: 2rem;
+         border: 1px solid transparent;
+         transition: 400ms;
+         
+         h3{
+            text-align: center;
+            margin-bottom: 2rem;
+            color: $color-primary;
+         }
+
+         &:hover{
+             background: transparent;
+             border-color: $color-primaryVariant;
+             cursor: default;
+         }
+     }
+
+     @media screen  and (max-width:975px){
+           justify-content: center;
+     }
+}
+
+.experiance-content{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     row-gap: 2rem;
+}
+.experiance-details{
+     display: flex;
+     gap: 1rem;
+
+}
+
+ 
