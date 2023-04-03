@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1e24e7f0.css",
-    "main.js": "/Portfolio/static/js/main.5d6d1377.js",
+    "main.css": "/Portfolio/static/css/main.c8090787.css",
+    "main.js": "/Portfolio/static/js/main.349287a4.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/memoryGame.png": "/Portfolio/static/media/memoryGame.5bea243a507e977671ae.png",
     "static/media/multiShoop.png": "/Portfolio/static/media/multiShoop.5d8eba05dbe5c8adf540.png",
     "static/media/kardoneShoop.png": "/Portfolio/static/media/kardoneShoop.20dc7cbd71eafc38b860.png",
     "static/media/school.png": "/Portfolio/static/media/school.5a38469bc74f86e68572.png",
-    "static/media/me1.png": "/Portfolio/static/media/me1.c7b123ea0f7e35389ad1.png",
-    "static/media/me.png": "/Portfolio/static/media/me.ea1261a822e2d0c74bfb.png",
+    "static/media/me2.png": "/Portfolio/static/media/me2.11070d0655920a597b72.png",
     "static/media/cv.pdf": "/Portfolio/static/media/cv.cac12a894783d66c47ce.pdf",
     "static/media/lessons.png": "/Portfolio/static/media/lessons.f50c9cac35cf6832c3fb.png",
     "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
-    "main.1e24e7f0.css.map": "/Portfolio/static/css/main.1e24e7f0.css.map",
-    "main.5d6d1377.js.map": "/Portfolio/static/js/main.5d6d1377.js.map",
+    "main.c8090787.css.map": "/Portfolio/static/css/main.c8090787.css.map",
+    "main.349287a4.js.map": "/Portfolio/static/js/main.349287a4.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e24e7f0.css",
-    "static/js/main.5d6d1377.js"
+    "static/css/main.c8090787.css",
+    "static/js/main.349287a4.js"
   ]
 }
