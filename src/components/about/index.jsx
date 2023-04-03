@@ -1,5 +1,4 @@
 import "./style.scss"
-import me from "../../assets/images/me1.png"
 
 import {FaAward} from "react-icons/fa"
 import {FiUsers} from "react-icons/fi"

@@ -42,17 +42,17 @@ header {
 
 .me {
   background: linear-gradient(45deg, transparent, #4db5ff, transparent);
-  width: 400px;
+  width: 500px;
   height: 400px;
   left: calc(50% - 11rem);
   margin-top: 0.5rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
 
   img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 
   }
 

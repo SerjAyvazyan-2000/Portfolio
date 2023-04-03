@@ -1,7 +1,7 @@
 import React, {useRef} from 'react';
 import CTA from "./CTA"
 import "./style.scss"
-import me from "../../assets/images/me.png"
+import me from "../../assets/images/me2.png"
 import HeaderSocials from "./headerSocials"
 
 
