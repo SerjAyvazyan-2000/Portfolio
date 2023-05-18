@@ -4,10 +4,11 @@ import kardone from "../../assets/images/kardoneShoop.png"
 import memoryGame from "../../assets/images/memoryGame.png"
 import school from "../../assets/images/school.png"
 import lessons from "../../assets/images/lessons.png"
+import creativeTim from "../../assets/images/creativeTim.png"
+
 
 
 const Portfolio = () => {
-
     const data = [
 
         {
@@ -16,7 +17,7 @@ const Portfolio = () => {
             title: 'Kardone Shopp',
             github: "https://github.com/SerjAyvazyan-2000/Kardone-Shoop",
             demo: 'https://serjayvazyan-2000.github.io/Kardone-Shoop',
-            process: "Is In Process",
+            starsList:[1,2,3,4,5,6]
         },
         {
             id: 2,
@@ -24,15 +25,7 @@ const Portfolio = () => {
             title: 'Memory Game',
             github: "https://github.com/SerjAyvazyan-2000/Memory-Game",
             demo: 'https://serjayvazyan-2000.github.io/Memory-Game',
-
-        },
-        {
-            id: 3,
-            img: school,
-            title: "School",
-            github: "https://github.com/SerjAyvazyan-2000/Admin-School",
-            demo: 'https://serjayvazyan-2000.github.io/Admin-School',
-
+            starsList:[1,2,3,4]
         },
 
         {
@@ -41,6 +34,19 @@ const Portfolio = () => {
             title: 'Multi Shopp',
             github: "https://github.com/SerjAyvazyan-2000/Multi-Shoop",
             demo: 'https://serjayvazyan-2000.github.io/Multi-Shoop',
+            starsList:[1,2,3,4]
+
+        },
+
+
+        {
+            id: 3,
+            img: school,
+            title: "School",
+            github: "https://github.com/SerjAyvazyan-2000/Admin-School",
+            demo: 'https://serjayvazyan-2000.github.io/Admin-School',
+            starsList:[1,2,3]
+
 
         },
         {
@@ -49,9 +55,23 @@ const Portfolio = () => {
             title: 'My Home Work',
             github: "https://github.com/SerjAyvazyan-2000/Home-Work",
             demo: 'https://serjayvazyan-2000.github.io/Home-Work/',
+            starsList:[1,2]
+
+        },
+        {
+            id: 6,
+            img: creativeTim,
+            title: 'Creative Tim',
+            github: "https://github.com/SerjAyvazyan-2000/Creative-Tim",
+            demo: 'https://serjayvazyan-2000.github.io/Creative-Tim/',
+            starsList:[],
+            process: "Is In Process",
+
 
         }
     ]
+
+
 
     return <section id="portfolio">
         <div className="G-container">
@@ -66,9 +86,15 @@ const Portfolio = () => {
                                 <img src={item.img} alt="multiShoop"/>
                             </div>
                             <h3>{item.title}</h3>
-                            {item.title === 'Kardone Shopp' ?
-                                <span>&#11088;&#11088;&#11088;&#11088;</span>
-                            :null}
+                            {item.starsList ?
+                                <>
+                                {item.starsList.map((item,index)=>{
+                                     return<span>&#11088;</span>
+                                })}
+
+                                </>
+                                : null}
+                            {item.process ? <p style={{color:'gold'}}>{item.process}</p> : null}
                             <div className="portfolio-item-cta">
                                 <a href={item.github} className="btn">GitHub</a>
                                 <a href={item.demo} className="btn btn-primaly" target="_blank">Live Demo</a>
