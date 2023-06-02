@@ -3,7 +3,7 @@ import multiShoop from "../../assets/images/multiShoop.png"
 import kardone from "../../assets/images/kardoneShoop.png"
 import memoryGame from "../../assets/images/memoryGame.png"
 import school from "../../assets/images/school.png"
-import lessons from "../../assets/images/lessons.png"
+import AppleDoctor from "../../assets/images/Снимок экрана 2023-06-03 000508.png"
 import creativeTim from "../../assets/images/creativeTim.png"
 
 
@@ -38,24 +38,13 @@ const Portfolio = () => {
 
         },
 
-
-        {
-            id: 3,
-            img: school,
-            title: "School",
-            github: "https://github.com/SerjAyvazyan-2000/Admin-School",
-            demo: 'https://serjayvazyan-2000.github.io/Admin-School',
-            starsList:[1,2,3]
-
-
-        },
         {
             id: 5,
-            img: lessons,
-            title: 'My Home Work',
-            github: "https://github.com/SerjAyvazyan-2000/Home-Work",
-            demo: 'https://serjayvazyan-2000.github.io/Home-Work/',
-            starsList:[1,2]
+            img: AppleDoctor,
+            title: 'AppleDoctor',
+            github: "https://github.com/SerjAyvazyan-2000/AppleDoctor",
+            demo: 'https://serjayvazyan-2000.github.io/AppleDoctor/',
+            process: "Is In Process",
 
         },
         {
@@ -67,8 +56,16 @@ const Portfolio = () => {
             starsList:[],
             process: "Is In Process",
 
+        },
+        {
+            id: 3,
+            img: school,
+            title: "School",
+            github: "https://github.com/SerjAyvazyan-2000/Admin-School",
+            demo: 'https://serjayvazyan-2000.github.io/Admin-School',
+            starsList:[1,2,3]
 
-        }
+        },
     ]
 
 
