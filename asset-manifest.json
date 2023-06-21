@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.43cd1cd1.css",
-    "main.js": "/Portfolio/static/js/main.c338f370.js",
+    "main.js": "/Portfolio/static/js/main.ab71ad19.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/Снимок экрана 2023-06-03 000508.png": "/Portfolio/static/media/Снимок экрана 2023-06-03 000508.16b99da6b10d12d5f85a.png",
     "static/media/memoryGame.png": "/Portfolio/static/media/memoryGame.5bea243a507e977671ae.png",
     "static/media/multiShoop.png": "/Portfolio/static/media/multiShoop.5d8eba05dbe5c8adf540.png",
     "static/media/kardoneShoop.png": "/Portfolio/static/media/kardoneShoop.20dc7cbd71eafc38b860.png",
     "static/media/creativeTim.png": "/Portfolio/static/media/creativeTim.3887cb945b96b43b9662.png",
-    "static/media/school.png": "/Portfolio/static/media/school.5a38469bc74f86e68572.png",
+    "static/media/school.png": "/Portfolio/static/media/school.62fd7f8d911394e1a696.png",
     "static/media/me.png": "/Portfolio/static/media/me.e019f0cf6f38e29e80fe.png",
     "static/media/cv.pdf": "/Portfolio/static/media/cv.cac12a894783d66c47ce.pdf",
     "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
     "main.43cd1cd1.css.map": "/Portfolio/static/css/main.43cd1cd1.css.map",
-    "main.c338f370.js.map": "/Portfolio/static/js/main.c338f370.js.map",
+    "main.ab71ad19.js.map": "/Portfolio/static/js/main.ab71ad19.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43cd1cd1.css",
-    "static/js/main.c338f370.js"
+    "static/js/main.ab71ad19.js"
   ]
 }
